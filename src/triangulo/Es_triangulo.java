@@ -32,6 +32,7 @@ public class Es_triangulo {
 			 System.out.print("Finalizo el programa \n ");
 			 numero=0;
 		 }
+		 //validar suma de lados
 		 else {
 			Tipo_triangulo tipo= new Tipo_triangulo(l1,l2,l3);
 			if(tipo.es_triangulo()) {
